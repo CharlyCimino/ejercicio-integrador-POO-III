@@ -1,4 +1,4 @@
-package baraja;
+package ar.charlycimino.ejemplos.ejercicioIII.cartas;
 
 /**
  *
@@ -6,12 +6,12 @@ package baraja;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public class Principal {
+public class CartaJoker extends Carta {
 
-    public static void main(String[] args) {
-        BarajaInglesa baraja = new BarajaInglesa();
+    private boolean aColor;
 
-        baraja.mostrarBaraja();
+    public CartaJoker(boolean aColor) {
+        this.aColor = aColor;
     }
 
 }

@@ -1,6 +1,6 @@
-package baraja.cartas;
+package ar.charlycimino.ejemplos.ejercicioIII.cartas;
 
-import baraja.Palo;
+import ar.charlycimino.ejemplos.ejercicioIII.Palo;
 
 /**
  *

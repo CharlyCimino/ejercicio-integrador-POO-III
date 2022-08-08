@@ -1,4 +1,4 @@
-package baraja.cartas;
+package ar.charlycimino.ejemplos.ejercicioIII;
 
 /**
  *
@@ -6,12 +6,7 @@ package baraja.cartas;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public class CartaJoker extends Carta {
-
-    private boolean aColor;
-
-    public CartaJoker(boolean aColor) {
-        this.aColor = aColor;
-    }
-
+public enum Color {
+    ROJO,
+    NEGRO;
 }

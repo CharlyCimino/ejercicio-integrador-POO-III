@@ -1,4 +1,4 @@
-package baraja.cartas;
+package ar.charlycimino.ejemplos.ejercicioIII.cartas;
 
 /**
  *

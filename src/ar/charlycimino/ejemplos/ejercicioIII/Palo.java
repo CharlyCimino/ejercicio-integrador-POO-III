@@ -1,4 +1,4 @@
-package baraja;
+package ar.charlycimino.ejemplos.ejercicioIII;
 
 /**
  *

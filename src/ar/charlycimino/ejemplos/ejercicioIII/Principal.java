@@ -1,6 +1,4 @@
-package baraja.cartas;
-
-import baraja.Palo;
+package ar.charlycimino.ejemplos.ejercicioIII;
 
 /**
  *
@@ -8,12 +6,12 @@ import baraja.Palo;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public abstract class CartaConPalo extends Carta {
+public class Principal {
 
-    private Palo palo;
+    public static void main(String[] args) {
+        BarajaInglesa baraja = new BarajaInglesa();
 
-    public CartaConPalo(Palo palo) {
-        this.palo = palo;
+        baraja.mostrarBaraja();
     }
 
 }
